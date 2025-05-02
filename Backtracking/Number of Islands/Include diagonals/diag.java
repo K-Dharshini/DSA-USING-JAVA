@@ -39,7 +39,7 @@ public class diag
         dfs(grid, i-1, j);
         dfs(grid, i, j-1);
         dfs(grid, i, j+1);
-        dfs(grid, i-1, j-1);
-        dfs(grid, i+1, j+1);
+        dfs(grid, i-1, j-1); // Down diagonal
+        dfs(grid, i+1, j+1); // Up diagonal
     }
 }
