@@ -1,4 +1,4 @@
-package Recursion.Generate_Parenthesis;
+package Backtracking.Generate_Parenthesis;
 import java.util.*;
 public class generateParenthesis 
 {

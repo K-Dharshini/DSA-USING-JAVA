@@ -1,4 +1,4 @@
-package Recursion.Permutation;
+package Backtracking.Permutation;
 import java.util.*;
 
 public class Permutation
