@@ -2,9 +2,9 @@ import java.util.*;
 public class nqueens {
     public static void main(String[] args) 
     {
-        Scanner input = new Scanner(System.in);
-        int a = input.nextInt();
-        int[] queens = new int[a];
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] queens = new int[n];
         int row=0;
         placeMyQueens(queens, row);
     }
