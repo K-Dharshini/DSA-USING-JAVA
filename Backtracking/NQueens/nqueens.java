@@ -1,3 +1,4 @@
+package Backtracking.NQueens;
 import java.util.*;
 public class nqueens {
     public static void main(String[] args) 
